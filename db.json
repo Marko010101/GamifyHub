@@ -1,0 +1,522 @@
+{
+  "leaderboards": [
+    {
+      "id": "lb-001",
+      "title": "Weekly High Rollers",
+      "description": "Top players by wagered amount this week. Compete for massive prizes!",
+      "startDate": "2026-03-24T00:00:00.000Z",
+      "endDate": "2026-03-30T23:59:59.000Z",
+      "status": "completed",
+      "scoringType": "wagered",
+      "maxParticipants": 100,
+      "prizes": [
+        {
+          "id": "lbp-001",
+          "rank": 1,
+          "name": "Grand Prize",
+          "type": "coins",
+          "amount": 10000,
+          "imageUrl": ""
+        },
+        {
+          "id": "lbp-002",
+          "rank": 2,
+          "name": "Silver Award",
+          "type": "freeSpin",
+          "amount": 50,
+          "imageUrl": ""
+        },
+        {
+          "id": "lbp-003",
+          "rank": 3,
+          "name": "Bronze Bonus",
+          "type": "bonus",
+          "amount": 500,
+          "imageUrl": ""
+        }
+      ],
+      "createdAt": "2026-03-20T10:00:00.000Z",
+      "updatedAt": "2026-03-28T14:30:14.595Z"
+    },
+    {
+      "id": "lb-002",
+      "title": "Monthly Winners Cup",
+      "description": "Win-based leaderboard running through March. Most wins takes the pot.",
+      "startDate": "2026-03-01T00:00:00.000Z",
+      "endDate": "2026-03-31T23:59:59.000Z",
+      "status": "completed",
+      "scoringType": "wins",
+      "maxParticipants": 50,
+      "prizes": [
+        {
+          "id": "lbp-004",
+          "rank": 1,
+          "name": "Top Winner Trophy",
+          "type": "coins",
+          "amount": 5000,
+          "imageUrl": ""
+        },
+        {
+          "id": "lbp-005",
+          "rank": 2,
+          "name": "Runner-Up Reward",
+          "type": "bonus",
+          "amount": 1000,
+          "imageUrl": ""
+        }
+      ],
+      "createdAt": "2026-03-01T08:00:00.000Z",
+      "updatedAt": "2026-03-28T14:30:14.594Z"
+    },
+    {
+      "id": "lb-003",
+      "title": "April Points Challenge",
+      "description": "Upcoming points-based competition launching in April.",
+      "startDate": "2026-04-01T00:00:00.000Z",
+      "endDate": "2026-04-30T23:59:59.000Z",
+      "status": "draft",
+      "scoringType": "points",
+      "maxParticipants": 200,
+      "prizes": [
+        {
+          "id": "lbp-006",
+          "rank": 1,
+          "name": "Champion Medal",
+          "type": "coins",
+          "amount": 20000,
+          "imageUrl": ""
+        },
+        {
+          "id": "lbp-007",
+          "rank": 2,
+          "name": "Silver Medal",
+          "type": "coins",
+          "amount": 10000,
+          "imageUrl": ""
+        },
+        {
+          "id": "lbp-008",
+          "rank": 3,
+          "name": "Bronze Medal",
+          "type": "freeSpin",
+          "amount": 100,
+          "imageUrl": ""
+        }
+      ],
+      "createdAt": "2026-03-25T09:00:00.000Z",
+      "updatedAt": "2026-03-25T09:00:00.000Z"
+    },
+    {
+      "id": "lb-004",
+      "title": "February Points Race",
+      "description": "Completed points-based leaderboard from February. Final results locked.",
+      "startDate": "2026-02-01T00:00:00.000Z",
+      "endDate": "2026-02-28T23:59:59.000Z",
+      "status": "completed",
+      "scoringType": "points",
+      "maxParticipants": 200,
+      "prizes": [
+        {
+          "id": "lbp-009",
+          "rank": 1,
+          "name": "February Champion",
+          "type": "coins",
+          "amount": 25000,
+          "imageUrl": ""
+        },
+        {
+          "id": "lbp-010",
+          "rank": 2,
+          "name": "Second Place",
+          "type": "bonus",
+          "amount": 2000,
+          "imageUrl": ""
+        }
+      ],
+      "createdAt": "2026-01-25T09:00:00.000Z",
+      "updatedAt": "2026-02-28T23:59:59.000Z"
+    },
+    {
+      "id": "lb-005",
+      "title": "January Wagering King",
+      "description": "Past wagering leaderboard. January's top bettors were rewarded.",
+      "startDate": "2026-01-01T00:00:00.000Z",
+      "endDate": "2026-01-31T23:59:59.000Z",
+      "status": "completed",
+      "scoringType": "wagered",
+      "maxParticipants": 75,
+      "prizes": [
+        {
+          "id": "lbp-011",
+          "rank": 1,
+          "name": "January Crown",
+          "type": "coins",
+          "amount": 15000,
+          "imageUrl": ""
+        }
+      ],
+      "createdAt": "2025-12-28T10:00:00.000Z",
+      "updatedAt": "2026-01-31T23:59:59.000Z"
+    },
+    {
+      "id": "lb-006",
+      "title": "Summer Wins Sprint",
+      "description": "Planned summer win-based sprint competition. Under configuration.",
+      "startDate": "2026-06-01T00:00:00.000Z",
+      "endDate": "2026-06-30T23:59:59.000Z",
+      "status": "draft",
+      "scoringType": "wins",
+      "maxParticipants": 150,
+      "prizes": [
+        {
+          "id": "lbp-012",
+          "rank": 1,
+          "name": "Summer Champion",
+          "type": "coins",
+          "amount": 30000,
+          "imageUrl": ""
+        },
+        {
+          "id": "lbp-013",
+          "rank": 2,
+          "name": "Summer Runner-Up",
+          "type": "freeSpin",
+          "amount": 200,
+          "imageUrl": ""
+        },
+        {
+          "id": "lbp-014",
+          "rank": 3,
+          "name": "Summer Third",
+          "type": "bonus",
+          "amount": 3000,
+          "imageUrl": ""
+        }
+      ],
+      "createdAt": "2026-03-27T11:00:00.000Z",
+      "updatedAt": "2026-03-27T11:00:00.000Z"
+    }
+  ],
+  "raffles": [
+    {
+      "id": "rf-001",
+      "name": "Spring Jackpot Raffle",
+      "description": "Win big this spring season! Buy your tickets now before they sell out.",
+      "startDate": "2026-03-25T00:00:00.000Z",
+      "endDate": "2026-04-05T23:59:59.000Z",
+      "drawDate": "2026-04-06T18:00:00.000Z",
+      "status": "active",
+      "ticketPrice": 100,
+      "maxTicketsPerUser": 5,
+      "totalTicketLimit": 1000,
+      "prizes": [
+        {
+          "id": "rfp-001",
+          "name": "Jackpot",
+          "type": "coins",
+          "amount": 50000,
+          "quantity": 1,
+          "imageUrl": ""
+        },
+        {
+          "id": "rfp-002",
+          "name": "Free Spins Bundle",
+          "type": "freeSpin",
+          "amount": 100,
+          "quantity": 5,
+          "imageUrl": ""
+        },
+        {
+          "id": "rfp-003",
+          "name": "Bonus Package",
+          "type": "bonus",
+          "amount": 2000,
+          "quantity": 10,
+          "imageUrl": ""
+        }
+      ],
+      "createdAt": "2026-03-20T12:00:00.000Z",
+      "updatedAt": "2026-03-20T12:00:00.000Z"
+    },
+    {
+      "id": "rf-002",
+      "name": "VIP Exclusive Draw",
+      "description": "Exclusive raffle for VIP members only. Limited tickets available.",
+      "startDate": "2026-04-01T00:00:00.000Z",
+      "endDate": "2026-04-10T23:59:59.000Z",
+      "drawDate": "2026-04-12T20:00:00.000Z",
+      "status": "draft",
+      "ticketPrice": 500,
+      "maxTicketsPerUser": 2,
+      "totalTicketLimit": 100,
+      "prizes": [
+        {
+          "id": "rfp-004",
+          "name": "VIP Bonus Package",
+          "type": "bonus",
+          "amount": 10000,
+          "quantity": 1,
+          "imageUrl": ""
+        },
+        {
+          "id": "rfp-005",
+          "name": "Elite Spins",
+          "type": "freeSpin",
+          "amount": 200,
+          "quantity": 3,
+          "imageUrl": ""
+        }
+      ],
+      "createdAt": "2026-03-22T14:00:00.000Z",
+      "updatedAt": "2026-03-22T14:00:00.000Z"
+    },
+    {
+      "id": "rf-003",
+      "name": "February Lucky Draw",
+      "description": "February raffle has been drawn. Winners have been notified.",
+      "startDate": "2026-02-01T00:00:00.000Z",
+      "endDate": "2026-02-20T23:59:59.000Z",
+      "drawDate": "2026-02-21T18:00:00.000Z",
+      "status": "drawn",
+      "ticketPrice": 200,
+      "maxTicketsPerUser": 3,
+      "totalTicketLimit": 500,
+      "prizes": [
+        {
+          "id": "rfp-006",
+          "name": "Grand Prize",
+          "type": "coins",
+          "amount": 25000,
+          "quantity": 1,
+          "imageUrl": ""
+        },
+        {
+          "id": "rfp-007",
+          "name": "Second Prize",
+          "type": "freeSpin",
+          "amount": 50,
+          "quantity": 3,
+          "imageUrl": ""
+        }
+      ],
+      "createdAt": "2026-01-28T10:00:00.000Z",
+      "updatedAt": "2026-02-21T18:00:00.000Z"
+    },
+    {
+      "id": "rf-004",
+      "name": "New Year Mega Raffle",
+      "description": "New Year raffle has been drawn. Major winners claimed their prizes.",
+      "startDate": "2026-01-01T00:00:00.000Z",
+      "endDate": "2026-01-15T23:59:59.000Z",
+      "drawDate": "2026-01-16T12:00:00.000Z",
+      "status": "drawn",
+      "ticketPrice": 50,
+      "maxTicketsPerUser": 10,
+      "totalTicketLimit": null,
+      "prizes": [
+        {
+          "id": "rfp-008",
+          "name": "Mega Jackpot",
+          "type": "coins",
+          "amount": 100000,
+          "quantity": 1,
+          "imageUrl": ""
+        },
+        {
+          "id": "rfp-009",
+          "name": "Lucky Spin Pack",
+          "type": "freeSpin",
+          "amount": 500,
+          "quantity": 2,
+          "imageUrl": ""
+        },
+        {
+          "id": "rfp-010",
+          "name": "Bonus Reward",
+          "type": "bonus",
+          "amount": 5000,
+          "quantity": 5,
+          "imageUrl": ""
+        }
+      ],
+      "createdAt": "2025-12-20T09:00:00.000Z",
+      "updatedAt": "2026-01-16T12:00:00.000Z"
+    },
+    {
+      "id": "rf-006",
+      "name": "March Community Raffle",
+      "description": "Community raffle cancelled due to technical issues.",
+      "startDate": "2026-03-10T00:00:00.000Z",
+      "endDate": "2026-03-20T23:59:59.000Z",
+      "drawDate": "2026-03-22T18:00:00.000Z",
+      "status": "cancelled",
+      "ticketPrice": 75,
+      "maxTicketsPerUser": 4,
+      "totalTicketLimit": 800,
+      "prizes": [
+        {
+          "id": "rfp-012",
+          "name": "Community Prize",
+          "type": "bonus",
+          "amount": 3000,
+          "quantity": 3,
+          "imageUrl": ""
+        }
+      ],
+      "createdAt": "2026-03-05T10:00:00.000Z",
+      "updatedAt": "2026-03-18T14:00:00.000Z"
+    }
+  ],
+  "wheels": [
+    {
+      "id": "wh-001",
+      "name": "Daily Spin Wheel",
+      "description": "Spin once per day for daily rewards. Free to play!",
+      "status": "active",
+      "maxSpinsPerUser": 1,
+      "spinCost": 0,
+      "backgroundColor": "#1a237e",
+      "borderColor": "#ffd700",
+      "segments": [
+        {
+          "id": "whs-001",
+          "label": "100 Coins",
+          "color": "#e53935",
+          "weight": 30,
+          "prizeType": "coins",
+          "prizeAmount": 100,
+          "imageUrl": ""
+        },
+        {
+          "id": "whs-002",
+          "label": "Nothing",
+          "color": "#757575",
+          "weight": 25,
+          "prizeType": "nothing",
+          "prizeAmount": 0,
+          "imageUrl": ""
+        },
+        {
+          "id": "whs-003",
+          "label": "10 Spins",
+          "color": "#43a047",
+          "weight": 20,
+          "prizeType": "freeSpin",
+          "prizeAmount": 10,
+          "imageUrl": ""
+        },
+        {
+          "id": "whs-004",
+          "label": "500 Bonus",
+          "color": "#1e88e5",
+          "weight": 15,
+          "prizeType": "bonus",
+          "prizeAmount": 500,
+          "imageUrl": ""
+        },
+        {
+          "id": "whs-005",
+          "label": "50 Coins",
+          "color": "#fb8c00",
+          "weight": 10,
+          "prizeType": "coins",
+          "prizeAmount": 50,
+          "imageUrl": ""
+        }
+      ],
+      "createdAt": "2026-03-01T09:00:00.000Z",
+      "updatedAt": "2026-03-01T09:00:00.000Z"
+    },
+    {
+      "id": "wh-002",
+      "name": "VIP Bonus Wheel",
+      "description": "High-value wheel for VIP players only. Costs 100 coins per spin.",
+      "status": "inactive",
+      "maxSpinsPerUser": 3,
+      "spinCost": 100,
+      "backgroundColor": "#4a148c",
+      "borderColor": "#ce93d8",
+      "segments": [
+        {
+          "id": "whs-006",
+          "label": "5000 Coins",
+          "color": "#d81b60",
+          "weight": 10,
+          "prizeType": "coins",
+          "prizeAmount": 5000,
+          "imageUrl": ""
+        },
+        {
+          "id": "whs-007",
+          "label": "Nothing",
+          "color": "#546e7a",
+          "weight": 40,
+          "prizeType": "nothing",
+          "prizeAmount": 0,
+          "imageUrl": ""
+        },
+        {
+          "id": "whs-008",
+          "label": "50 Spins",
+          "color": "#00897b",
+          "weight": 20,
+          "prizeType": "freeSpin",
+          "prizeAmount": 50,
+          "imageUrl": ""
+        },
+        {
+          "id": "whs-009",
+          "label": "2000 Bonus",
+          "color": "#3949ab",
+          "weight": 30,
+          "prizeType": "bonus",
+          "prizeAmount": 2000,
+          "imageUrl": ""
+        }
+      ],
+      "createdAt": "2026-03-10T11:00:00.000Z",
+      "updatedAt": "2026-03-10T11:00:00.000Z"
+    },
+    {
+      "id": "wh-003",
+      "name": "Weekend Event Wheel",
+      "description": "Draft wheel for upcoming weekend event. Segments still being tuned.",
+      "status": "draft",
+      "maxSpinsPerUser": 5,
+      "spinCost": 50,
+      "backgroundColor": "#1b5e20",
+      "borderColor": "#a5d6a7",
+      "segments": [
+        {
+          "id": "whs-010",
+          "label": "200 Coins",
+          "color": "#f57f17",
+          "weight": 35,
+          "prizeType": "coins",
+          "prizeAmount": 200,
+          "imageUrl": ""
+        },
+        {
+          "id": "whs-011",
+          "label": "Nothing",
+          "color": "#37474f",
+          "weight": 35,
+          "prizeType": "nothing",
+          "prizeAmount": 0,
+          "imageUrl": ""
+        },
+        {
+          "id": "whs-012",
+          "label": "20 Spins",
+          "color": "#6a1b9a",
+          "weight": 30,
+          "prizeType": "freeSpin",
+          "prizeAmount": 20,
+          "imageUrl": ""
+        }
+      ],
+      "createdAt": "2026-03-25T15:00:00.000Z",
+      "updatedAt": "2026-03-25T15:00:00.000Z"
+    }
+  ]
+}
